@@ -15,6 +15,8 @@ cd sitespeed.io
 npm install
 bin/sitespeed.js --plugins.add ../plugin-third-party-decode/lib/ https://www.sitespeed.io/ -n 1
 ```
+## What you will get
+<img src="https://raw.githubusercontent.com/sitespeedio/plugin-third-party-decode/master/example.png">
 
 ## Run in production
 If you want to run Third Party Decoder with your other sitespeed.io test, follow the instructions in the [add a plugin docs](https://www.sitespeed.io/documentation/sitespeed.io/plugins/#add-a-plugin).
