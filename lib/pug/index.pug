@@ -1,0 +1,20 @@
+a
+h2 Decoded Third Parties
+
+- var thirdParties = pageInfo.data.thirdPartyDecode.pageSummary
+
+if thirdParties.length > 0
+
+ p The following third parties was decoded by Google.
+ table
+     thead
+       tr
+         th Name
+         th Type
+     tbody
+     each thirdParty in thirdParties
+      tr
+       td(data-title='Name') #{thirdParty.name}
+       td(data-title='Type')  #{thirdParty.type}
+else
+ p No third party requests decooded by Google.
