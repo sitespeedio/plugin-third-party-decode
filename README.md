@@ -1,7 +1,7 @@
 # sitespeed.io plugin for decoding third party requests
 [![Build Status](https://travis-ci.org/sitespeedio/plugin-third-party-decode.svg?branch=master)](https://travis-ci.org/sitespeedio/plugin-third-party-decode)
 
-Run Paul Irish [third-party-decode](https://github.com/paulirish/third-party-decode) as a plugin for sitespeed.io. It will decode third parties the same way as Chrome do. It's not 100% solution that works for everything (for example it doesn't categorise Facebook as third party, but that will be fixed in the next version of the Coach).
+Run Paul Irish [third-party-decode](https://github.com/paulirish/third-party-decode) as a plugin for sitespeed.io. It will decode third parties the same way as Chrome do. It's not 100% solution that works for everything. For example it doesn't categorise Facebook, Google Tag Manager as third party so you should always check with the [Coach](https://github.com/sitespeedio/coach)).
 
 You can read more about sitespeed.io plugins [here](https://www.sitespeed.io/documentation/sitespeed.io/plugins/).
 
